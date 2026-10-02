@@ -1,3 +1,29 @@
+# OwnDB
+
+Built by Girish Lade — [ladestack.in](https://ladestack.in)
+
+OwnDB is a systems-exploration project: a serverless Postgres platform (Rust) that
+separates storage and compute, replacing the PostgreSQL storage layer with a
+clustered, cloud-native storage engine. It is a study fork of
+[Neon](https://github.com/neondatabase/neon) used for learning large-scale
+distributed database architecture.
+
+## Tech stack
+
+- Rust (storage engine, pageserver, safekeepers)
+- PostgreSQL compute nodes
+- Docker / docker-compose for local dev
+- Python test tooling
+
+## Quick start
+
+See the upstream README content below for the full local development guide
+(docs/SUMMARY.md in the repo).
+
+## Deploy notes
+
+Not a web application — no deployment. Run locally per instructions below.
+
 [![Neon](https://github.com/user-attachments/assets/fd91da5f-44a9-41c7-9075-36a5b5608083)](https://neon.com)
 
 
